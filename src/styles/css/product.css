@@ -1,0 +1,156 @@
+.product-page {
+  margin: 2em;
+  display: grid;
+  grid-template-areas:
+    "category category category category"
+    "aside product product product"
+    "button button button button";
+}
+
+.category-and-sort {
+  grid-area: category;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  padding-right: 1em;
+}
+
+.category h3 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: 400;
+  letter-spacing: 0.8em;
+}
+
+aside {
+  grid-area: aside;
+  width: 12em;
+  margin-top: 1em;
+}
+
+aside h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+aside h5 {
+  font-size: 1em;
+  font-weight: 200;
+  margin: 1em 1em 0 0;
+  padding-top: 1em;
+  border-top: 1px solid darkgray;
+}
+
+.filter-button,
+.close-button {
+  display: none;
+}
+
+.product-grid {
+  grid-area: product;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.no-products {
+  display: block;
+  margin: 2em 0;
+  width: 59em;
+}
+
+.load-more {
+  grid-area: button;
+  text-align: center;
+  margin: 6em auto 2em auto;
+  border-radius: 0.2em;
+}
+
+.load-more button {
+  background-color: rgb(66, 66, 66);
+  color: white;
+  margin-top: 0.5em;
+}
+
+.product-img img {
+  aspect-ratio: 1/1;
+  border-radius: 0.5em;
+}
+
+.product-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale-img p {
+  position: relative;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  text-align: center;
+  width: 6em;
+  border-radius: 0.2em;
+  top: -20em;
+  right: -15em;
+}
+
+.product-details-link:hover .product-img img {
+  scale: 1.1;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.product-details-link:hover .product-img {
+  overflow: hidden;
+}
+
+.filter h5 {
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.range-slider {
+  display: flex;
+  flex-direction: column;
+}
+
+.sliders-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider.first {
+  width: 4em;
+}
+
+.slider.second {
+  width: 4em;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="number"] {
+  all: unset;
+  width: 60px;
+  border: 1px solid darkgray;
+  border-radius: 0.2em;
+  text-align: center;
+}
+
+#sort {
+  all: unset;
+  width: 9em;
+  font-size: 0.9em;
+  border: 1px solid darkgray;
+  border-radius: 0.2em;
+  padding: 0 0.5em;
+  cursor: pointer;
+  background: url(../../../src/styles/images/arrow.svg);
+  background-position: 9em;
+  background-size: 5%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,42 @@
+.hero-banner {
+  width: 100%;
+  height: 30em;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.some-text {
+  margin: 3em 3em;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Caveat", cursive;
+}
+
+.some-products h3 {
+  text-align: center;
+  font-weight: 200;
+}
+
+.some-products ul {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em 0 4em 0;
+}
+
+.some-products img {
+  width: 24em;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.some-products p {
+  margin: 1em 3em;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 200;
+}

@@ -1,0 +1,153 @@
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-button {
+  display: none;
+}
+
+header {
+  margin-top: 5em;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input {
+  all: unset;
+}
+
+.search {
+  display: flex;
+  width: 6em;
+  border-bottom: 1px solid darkgray;
+}
+
+.search i {
+  margin-right: 0.5em;
+}
+
+.logo img {
+  width: 14em;
+  height: auto;
+  justify-self: center;
+}
+
+.cart {
+  margin-left: 4em;
+}
+
+nav {
+  padding-bottom: 1em;
+  border-bottom: 1px solid darkgray;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  padding: 0.4em 2em;
+}
+
+.navbar-list li:hover {
+  border-bottom: 1px solid darkgray;
+  margin-bottom: -1px;
+}
+
+li {
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  transition-duration: 0.5s;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  transition-duration: 0.5s;
+  line-height: 3em;
+  border-bottom: 1px solid darkgray;
+}
+
+.dropdown li:hover {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.dropdown a {
+  text-transform: none;
+}
+
+.dropdown a:hover {
+  color: rgb(155, 143, 121);
+  transition-duration: 0.5s;
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5em;
+  border-top: 1px solid darkgray;
+}
+
+.footer-list {
+  display: flex;
+  gap: 2em;
+  margin: 1em auto;
+}
+
+.footer-list a {
+  text-transform: capitalize;
+}
+
+.footer-list li:hover {
+  border-bottom: 1px solid darkgray;
+  margin-bottom: -1px;
+}
+
+.github-link {
+  color: rgb(155, 143, 121);
+}

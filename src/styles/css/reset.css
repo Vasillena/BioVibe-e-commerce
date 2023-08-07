@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  background-color: white;
+  color: rgb(57, 57, 57);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+}
+
+button {
+  all: unset;
+  padding: 0.3em;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
