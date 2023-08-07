@@ -3,13 +3,14 @@
 ## 📖 Description
 E-commerce website
 
-To start:
+## To start:
 <br/>
   Terminal:
   - cd server
   - node server.js
 <br/>
   Seconnd terminal:
+<br/>
   - npm run dev
 
 
