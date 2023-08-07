@@ -14,6 +14,7 @@ To start:
 ## 📷 Screenshots
 
 -----Mobile Version-----
+![Screenshot 0](https://github.com/Vasillena/BioVibe---e-commerce/assets/114015792/20c991fd-978b-420a-a13f-049e0c7cd3fc)
 
 ------------------------
 ![Screenshot 1](https://github.com/Vasillena/BioVibe---e-commerce/assets/114015792/c6d21235-4908-42c8-80cc-f76088205037)
