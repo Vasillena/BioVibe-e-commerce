@@ -6,7 +6,9 @@ E-commerce website
 ## To start:
 <br/>
   Terminal:
+<br/>
   - cd server
+<br/>
   - node server.js
 <br/>
   Seconnd terminal:
