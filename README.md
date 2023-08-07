@@ -4,9 +4,11 @@
 E-commerce website
 
 To start:
+<br/>
   Terminal:
   - cd server
   - node server.js
+<br/>
   Seconnd terminal:
   - npm run dev
 
