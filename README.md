@@ -11,7 +11,7 @@ E-commerce website
 <br/>
   - node server.js
 <br/>
-  Seconnd terminal:
+  Second terminal:
 <br/>
   - npm run dev
 
