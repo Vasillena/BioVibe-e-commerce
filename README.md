@@ -10,19 +10,19 @@ BioVibe is an e-commerce project with focus on encouraging a positive impact on 
 
 Let's make a difference together. We can choose products that are:
 
-🌱 Eco-Friendly
-There is a diverse range of products that align with your eco-conscious values. From reusable essentials to biodegradable alternatives, there are so many products that can minimize environmental impact.
+🌱 Eco-Friendly:
+There is a diverse range of products that align with the eco-conscious values. From reusable essentials to biodegradable alternatives, there are so many products that can minimize environmental impact.
 
-🐇 Cruelty-Free
+🐇 Cruelty-Free:
 Embrace a cruelty-free lifestyle with products that are not tested on animals. I believe in compassion towards all living beings.
 
-♻️ Plastic-Free
+♻️ Plastic-Free:
 Say goodbye to single-use plastics! BioVibe promotes a plastic-free living, there are so many alternatives that are not only better for the planet but also contribute to reducing plastic pollution.
 
-🌿 Sustainable
+🌿 Sustainable:
 Dedication to sustainability goes beyond products. Choose brands that prioritize ethical sourcing, fair labor practices, and sustainable manufacturing processes.
 
-🍃 Vegan
+🍃 Vegan:
 Explore a big range of vegan products that cater to a plant-based lifestyle - from skincare to home essentials.
 
 🌈 BioVibe is more than just an e-commerce platform – it's a place that encourages committement to making conscious choices for a healthier planet.
@@ -62,7 +62,7 @@ Open http://localhost:3030 in your browser to view the application.
 
 Explore various range of products
 <br/>
-Filter products by brand andd/or price
+Filter products by brand and/or price
 <br/>
 Sort products by name or price
 <br/>
